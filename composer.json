@@ -1,0 +1,38 @@
+{
+    "name": "universaleducation/api",
+    "type": "library",
+    "description": "Enables PHP applications to communicate with the Universal Education API.",
+    "keywords": [
+        "api",
+        "http",
+        "rest",
+        "universaleducation"
+    ],
+    "homepage": "http://www.ue-learn.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "UniversalEducation",
+            "homepage": "http://www.ue-learn.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.0"
+    },
+    "require-dev": {
+        "codeless/jugglecode": "1.0",
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "php-coveralls/php-coveralls": "2.1",
+        "phpunit/phpunit": "^6.4 || ^7.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "UniversalEducation": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UniversalEducation\\Test\\": "test/"
+        }
+    }
+}

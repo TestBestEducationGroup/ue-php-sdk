@@ -1,0 +1,16 @@
+
+
+Code Coverage Report:      
+  2020-01-15 18:59:51      
+                           
+ Summary:                  
+  Classes:  0.00% (0/9)    
+  Methods: 42.68% (35/82)  
+  Lines:   38.15% (124/325)
+
+\UniversalEducation\Api::UniversalEducation\Api\Client
+  Methods:  69.44% (25/36)   Lines:  77.11% ( 64/ 83)
+\UniversalEducation\Api::UniversalEducation\Api\Connection
+  Methods:  31.03% ( 9/29)   Lines:  29.55% ( 52/176)
+\UniversalEducation\Api::UniversalEducation\Api\Resource
+  Methods:  14.29% ( 1/ 7)   Lines:  26.67% (  8/ 30)

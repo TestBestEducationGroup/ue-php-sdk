@@ -1,0 +1,2203 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Client.php' => 
+  array (
+    60 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    61 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    77 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    78 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+    ),
+    80 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    81 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    82 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    87 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    88 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    89 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    100 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+    ),
+    101 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+    ),
+    109 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => 
+    array (
+    ),
+    129 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+    ),
+    130 => NULL,
+    139 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    140 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    141 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    143 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    144 => NULL,
+    152 => 
+    array (
+    ),
+    153 => NULL,
+    161 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    162 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      11 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      12 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      13 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      14 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      15 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+      16 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+      17 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    172 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+    ),
+    173 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+    ),
+    174 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+    ),
+    175 => NULL,
+    186 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    187 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    188 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    189 => NULL,
+    198 => 
+    array (
+    ),
+    199 => 
+    array (
+    ),
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    213 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+    ),
+    214 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+    ),
+    216 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+    ),
+    217 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+    ),
+    218 => NULL,
+    228 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    229 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    231 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    232 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    233 => NULL,
+    243 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+    ),
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+    ),
+    247 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+    ),
+    248 => NULL,
+    257 => 
+    array (
+    ),
+    258 => 
+    array (
+    ),
+    259 => NULL,
+    269 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+    ),
+    270 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+    ),
+    272 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+    ),
+    273 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+    ),
+    274 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+    ),
+    275 => NULL,
+    284 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+    ),
+    285 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+    ),
+    286 => NULL,
+    296 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    297 => 
+    array (
+    ),
+    299 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    300 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    301 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    302 => NULL,
+    311 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    314 => 
+    array (
+    ),
+    315 => NULL,
+    325 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+    ),
+    326 => NULL,
+    336 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+    ),
+    337 => NULL,
+    348 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+    ),
+    349 => NULL,
+    360 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+    ),
+    361 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace',
+    ),
+    363 => 
+    array (
+    ),
+    365 => NULL,
+    375 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+    ),
+    376 => NULL,
+    387 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+    ),
+    388 => NULL,
+    399 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+    ),
+    400 => NULL,
+    411 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+    ),
+    412 => NULL,
+    423 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+    ),
+    424 => NULL,
+    435 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+    ),
+    436 => NULL,
+    446 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+    ),
+    447 => NULL,
+    456 => 
+    array (
+    ),
+    457 => NULL,
+    466 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    467 => NULL,
+    476 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser',
+    ),
+    477 => NULL,
+    486 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser',
+    ),
+    487 => NULL,
+    501 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework',
+    ),
+    502 => NULL,
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Connection.php' => 
+  array (
+    83 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    84 => 
+    array (
+    ),
+    86 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    87 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    88 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    90 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    91 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    92 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    94 => 
+    array (
+    ),
+    96 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    97 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    106 => 
+    array (
+    ),
+    107 => 
+    array (
+    ),
+    108 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    113 => 
+    array (
+    ),
+    122 => 
+    array (
+    ),
+    123 => 
+    array (
+    ),
+    125 => 
+    array (
+    ),
+    143 => 
+    array (
+    ),
+    144 => 
+    array (
+    ),
+    153 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    154 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    163 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    164 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    165 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    174 => 
+    array (
+    ),
+    175 => 
+    array (
+    ),
+    176 => 
+    array (
+    ),
+    178 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    186 => 
+    array (
+    ),
+    195 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    196 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    204 => 
+    array (
+    ),
+    205 => 
+    array (
+    ),
+    213 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    214 => NULL,
+    221 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    222 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    223 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    224 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    225 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    226 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    227 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    228 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    229 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    238 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    239 => 
+    array (
+    ),
+    241 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    242 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    243 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    244 => 
+    array (
+    ),
+    245 => 
+    array (
+    ),
+    247 => 
+    array (
+    ),
+    248 => 
+    array (
+    ),
+    250 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    251 => 
+    array (
+    ),
+    252 => 
+    array (
+    ),
+    254 => 
+    array (
+    ),
+    255 => 
+    array (
+    ),
+    258 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    259 => 
+    array (
+    ),
+    261 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    262 => NULL,
+    269 => 
+    array (
+    ),
+    270 => NULL,
+    280 => 
+    array (
+    ),
+    281 => 
+    array (
+    ),
+    282 => 
+    array (
+    ),
+    283 => 
+    array (
+    ),
+    284 => 
+    array (
+    ),
+    285 => 
+    array (
+    ),
+    286 => 
+    array (
+    ),
+    288 => 
+    array (
+    ),
+    289 => 
+    array (
+    ),
+    291 => 
+    array (
+    ),
+    293 => 
+    array (
+    ),
+    294 => 
+    array (
+    ),
+    297 => 
+    array (
+    ),
+    299 => 
+    array (
+    ),
+    310 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    311 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    312 => 
+    array (
+    ),
+    314 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    315 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    316 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    317 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    318 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    319 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    320 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    321 => NULL,
+    332 => 
+    array (
+    ),
+    333 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    336 => 
+    array (
+    ),
+    337 => 
+    array (
+    ),
+    338 => 
+    array (
+    ),
+    339 => 
+    array (
+    ),
+    340 => 
+    array (
+    ),
+    341 => 
+    array (
+    ),
+    342 => 
+    array (
+    ),
+    343 => 
+    array (
+    ),
+    344 => 
+    array (
+    ),
+    345 => NULL,
+    357 => 
+    array (
+    ),
+    358 => 
+    array (
+    ),
+    359 => 
+    array (
+    ),
+    360 => 
+    array (
+    ),
+    361 => 
+    array (
+    ),
+    362 => 
+    array (
+    ),
+    363 => 
+    array (
+    ),
+    364 => 
+    array (
+    ),
+    365 => 
+    array (
+    ),
+    366 => 
+    array (
+    ),
+    370 => 
+    array (
+    ),
+    371 => 
+    array (
+    ),
+    376 => 
+    array (
+    ),
+    377 => 
+    array (
+    ),
+    378 => 
+    array (
+    ),
+    379 => 
+    array (
+    ),
+    380 => 
+    array (
+    ),
+    381 => 
+    array (
+    ),
+    382 => 
+    array (
+    ),
+    383 => 
+    array (
+    ),
+    384 => 
+    array (
+    ),
+    385 => 
+    array (
+    ),
+    386 => 
+    array (
+    ),
+    387 => NULL,
+    396 => 
+    array (
+    ),
+    397 => 
+    array (
+    ),
+    398 => 
+    array (
+    ),
+    399 => 
+    array (
+    ),
+    400 => 
+    array (
+    ),
+    401 => 
+    array (
+    ),
+    402 => NULL,
+    415 => 
+    array (
+    ),
+    416 => 
+    array (
+    ),
+    417 => 
+    array (
+    ),
+    419 => 
+    array (
+    ),
+    420 => 
+    array (
+    ),
+    421 => 
+    array (
+    ),
+    422 => 
+    array (
+    ),
+    423 => 
+    array (
+    ),
+    424 => 
+    array (
+    ),
+    425 => 
+    array (
+    ),
+    426 => 
+    array (
+    ),
+    427 => 
+    array (
+    ),
+    428 => 
+    array (
+    ),
+    429 => 
+    array (
+    ),
+    430 => 
+    array (
+    ),
+    431 => 
+    array (
+    ),
+    432 => 
+    array (
+    ),
+    433 => 
+    array (
+    ),
+    434 => NULL,
+    443 => 
+    array (
+    ),
+    444 => 
+    array (
+    ),
+    445 => 
+    array (
+    ),
+    446 => 
+    array (
+    ),
+    447 => 
+    array (
+    ),
+    448 => 
+    array (
+    ),
+    449 => 
+    array (
+    ),
+    450 => 
+    array (
+    ),
+    451 => NULL,
+    461 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    462 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    463 => NULL,
+    473 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    474 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    476 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    477 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    478 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    481 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    482 => NULL,
+    490 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    491 => NULL,
+    499 => 
+    array (
+    ),
+    500 => NULL,
+    508 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses',
+      10 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    509 => NULL,
+    519 => 
+    array (
+    ),
+    520 => 
+    array (
+    ),
+    523 => 
+    array (
+    ),
+    524 => 
+    array (
+    ),
+    525 => 
+    array (
+    ),
+    528 => 
+    array (
+    ),
+    534 => 
+    array (
+    ),
+    535 => NULL,
+    541 => 
+    array (
+    ),
+    542 => 
+    array (
+    ),
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resource.php' => 
+  array (
+    31 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    32 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+    ),
+    34 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    35 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    36 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads',
+      2 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread',
+      3 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      4 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+      5 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses',
+      6 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons',
+      7 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson',
+      8 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades',
+      9 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails',
+    ),
+    40 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+    ),
+    43 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+    ),
+    44 => 
+    array (
+    ),
+    47 => 
+    array (
+      0 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount',
+      1 => 'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount',
+    ),
+    48 => NULL,
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    56 => NULL,
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => NULL,
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => NULL,
+    80 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    84 => 
+    array (
+    ),
+    86 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    90 => NULL,
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/User.php' => 
+  array (
+    31 => 
+    array (
+    ),
+    32 => NULL,
+    35 => 
+    array (
+    ),
+    36 => NULL,
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/MessageThread.php' => 
+  array (
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/MessageCount.php' => 
+  array (
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/CourseSession.php' => 
+  array (
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Lesson.php' => 
+  array (
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Grades.php' => 
+  array (
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Classes.php' => 
+  array (
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/ClientError.php' => 
+  array (
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Error.php' => 
+  array (
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Filter.php' => 
+  array (
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/NetworkError.php' => 
+  array (
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Homework.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Message.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+  ),
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/ServerError.php' => 
+  array (
+  ),
+));
+$coverage->setTests(array (
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testConfigureRequiresApiKey' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testFailOnErrorPassesThroughToConnection' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLastErrorGetsErrorFromConnection' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThreads' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateResourcePostsToTheRightPlace' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testUpdateUser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetMessageThread' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetUnreadCount' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetNotifyCount' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetCourses' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLessons' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetLesson' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetGrades' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClasses' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testGetClassDetails' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateUser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UniversalEducation\\Test\\Unit\\Api\\ClientTest::testCreateHomework' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Client.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/ClientError.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Connection.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Error.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Filter.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/NetworkError.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resource.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Classes.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/CourseSession.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Grades.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Homework.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Lesson.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/Message.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/MessageCount.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/MessageThread.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/Resources/User.php' => true,
+  '/home/jherr/git/portal_api_php_sdk/src/UniversalEducation/Api/ServerError.php' => true,
+));
+
+return $coverage;
