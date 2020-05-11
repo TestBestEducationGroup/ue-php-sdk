@@ -42,7 +42,7 @@ class Client
      *
      * @var string
      */
-    private static $dev_api_url = 'http://127.0.0.1:8000';#'https://dev.ue-learn.com';
+    private static $dev_api_url = 'https://dev.ue-learn.com';
     private static $live_api_url = 'https://login.ue-learn.com';
     private static $cn_api_url = 'https://login.ue-learn.cn';
     public static $api_path;

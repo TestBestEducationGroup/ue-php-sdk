@@ -58,6 +58,7 @@ Auth
 ~~~php
 UniversalEducation::configure(array(
     'api_key' => 'd81aada4xc34xx3e18f0xxxx7f36ca'
+    'is_dev' => false //use true for test api
 ));
 ~~~
 
@@ -67,7 +68,7 @@ Accessing collections and resources (GET)
 To list all the resources in a collection:
 
 ~~~php
-$classes = UniversalEducation::getClasses('eamil');
+$classes = UniversalEducation::getClasses('email');
 
 foreach ($classes as $cl) {
     echo $cl->token;
