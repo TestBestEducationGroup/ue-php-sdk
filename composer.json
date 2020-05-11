@@ -1,5 +1,5 @@
 {
-    "version": "",
+    "version": "1.0",
     "name": "universaleducation/api",
     "type": "library",
     "description": "Enables PHP applications to communicate with the Universal Education API.",
